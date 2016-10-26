@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+	<meta charset="UTF-8">
+	<title> Virtual Spellbook </title>
+	<link href="https://fonts.googleapis.com/css?family=Amita"" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+<div id="page-wrap">
+	<header>
+			<nav id="nav">
+			<a href="index.html"> | Index | </a>
+			<a href="wand.html">| 1-2 |  </a>
+			<a href="virus.html"> | 3-4 |    </a>
+			<a href="doctor.html">| 5-6 |  </b> </a>
+			<a href="moons.html"><b> | 7-8 | </b> </a>
+		 </nav>
+	</header>
+	
+<h1> Virtual Spellbook </h1>
+
+		<div id="book">
+			
+					<img src="book.png" width="700px">
+
+
+
+			<li class="text-7">
+				<ul> <center> <b> Spell Five </b></center> </ul>
+				<ul> &#9790; Watch your Moons  &#9789; </ul>
+				<ul> Every witch knows how important it is to </ul>
+				<ul> keep a calander for all her astrology needs</ul>
+				<ul> This string can be added to any javascript </ul>
+				<ul> for a daily reminder </ul>
+				<ul> ..... </ul>
+				<ul> <img src="moon2.png" width="100px"></ul>
+
+			</li>
+
+			<li class="text-8">
+				<ul> var now = new Date(); </ul>
+
+				<ul>var days = new Array('Sunday','Monday','Tuesday',</ul>
+				<ul>'Wednesday','Thursday','Friday','Saturday'); </ul>
+
+				<ul> var months = new Array('January','February','March','April','May',</ul>
+				<ul>'June','July','August','September','October','November','December'); </ul>
+
+				<ul> var date = ((now.getDate()&lsaquo;10) ? "0" : "")+ now.getDate(); </ul>
+
+				<ul>function fourdigits(number)	{ </ul>
+					<ul> return (number < 1000) ? number + 1900 : number;} </ul>
+								
+			<ul>today =  days[now.getDay()] + ", " +</ul>
+       		 <ul> months[now.getMonth()] + " " + </ul>
+        		<ul> date + ", " +  </ul>
+        		 <ul> (fourdigits(now.getYear())) ; </ul>
+
+<ul> document.write(today); </ul>
+			
+		
+		</div>	
+
+	
+		<script src="main.js"></script>
+</div>
+	<footer>
+		 &copy; 2016 Ellie Hall <i> Virtual Spellbook </i> <img height=20 src="wifi.png">
+	</footer>
+
+</body>
+
+</html>
